@@ -1,7 +1,7 @@
 {
 	"name": "@gradeup/med-url",
 	"version": "1.0.2",
-	"description": "Construct a url by passing query params with encoded as uri and get the keys embedded into url as decoded values",
+	"description": "Construct a url by passing query params as encoded uri or get the keys embedded into url as decoded values.",
 	"main": "dist/index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
