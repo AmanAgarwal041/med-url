@@ -12,6 +12,7 @@ npm install --save med-url
 ### Import the module to your code
 ``` javascript
 import MedUrl from 'med-url'; // Functionalities to MedUrl variable
+```
 
 ### Functions 
 #### set(url, options)
