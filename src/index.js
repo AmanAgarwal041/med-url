@@ -68,6 +68,10 @@ function get(url, key) {
 	return undefined;
 }
 
+export {
+	set, get,
+};
+
 export default {
 	set, get,
 };
