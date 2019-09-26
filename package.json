@@ -1,7 +1,8 @@
 {
 	"name": "@gradeup/med-url",
-	"version": "1.0.6",
+	"version": "1.0.7",
   "publishConfig": {
+  	"access": "public",
     "registry": "https://npm.pkg.github.com/"
   },
 	"description": "Construct a url by passing query params as encoded uri or get the keys embedded into url as decoded values.",
