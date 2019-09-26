@@ -1,6 +1,9 @@
 {
 	"name": "@gradeup/med-url",
 	"version": "1.0.6",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
 	"description": "Construct a url by passing query params as encoded uri or get the keys embedded into url as decoded values.",
 	"main": "dist/index.js",
 	"scripts": {
@@ -8,7 +11,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/AmanAgarwal041/med-url.git"
+		"url": "git+https://github.com/gradeup/med-url.git"
 	},
 	"keywords": [
 		"url",
@@ -21,10 +24,6 @@
 		"encodeURIComponent",
 		"decodeURIComponent"
 	],
-	"author": "Aman Agarwal <agarwal.aman041@gmail.com> (https://github.com/AmanAgarwal041/)",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/AmanAgarwal041/med-url/issues"
-	},
-	"homepage": "https://github.com/AmanAgarwal041/med-url#readme"
+	"author": "",
+	"license": "ISC"
 }
