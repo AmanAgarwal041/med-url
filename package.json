@@ -1,14 +1,15 @@
 {
 	"name": "@gradeup/med-url",
-	"version": "1.0.7",
-  "publishConfig": {
-  	"access": "public",
-    "registry": "https://npm.pkg.github.com/"
-  },
+	"version": "1.0.8",
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://npm.pkg.github.com/"
+	},
 	"description": "Construct a url by passing query params as encoded uri or get the keys embedded into url as decoded values.",
 	"main": "dist/index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "babel ./src --out-dir ./dist -s inline"
 	},
 	"repository": {
 		"type": "git",
@@ -26,5 +27,11 @@
 		"decodeURIComponent"
 	],
 	"author": "",
-	"license": "ISC"
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/cli": "^7.15.7",
+		"@babel/core": "^7.15.8",
+		"@babel/plugin-transform-runtime": "^7.15.8",
+		"@babel/preset-env": "^7.15.8"
+	}
 }

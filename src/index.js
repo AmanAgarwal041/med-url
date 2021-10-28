@@ -39,7 +39,7 @@ function set(url, options) {
 			}
 		}
 		url = url.replace(/(.*)\?.*$/, "$1");
-		return `${url}?${qs.join('&')}`;
+		return `${url}${qs.length > 0 ? `?${qs.join('&')}` : ''}`;;
 	}
 }
 
